@@ -24,7 +24,7 @@ const NavBar = () => {
 
 
   return (
-    <div className={color ? "header header-gb" : "header"}>
+    <div className={color ? "header header-bg" : "header"}>
         <h2>Shopping</h2>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
